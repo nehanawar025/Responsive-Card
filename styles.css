@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Montserrat:wght@500;700&family=Zen+Antique+Soft&display=swap');
+
+/*  font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Zen Antique Soft', serif;*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    min-height: 100vh;
+    max-width:100% ;
+    background-color: #FFFDD0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-pic{
+    width: 125px;
+    border-radius: 20px;
+    border: none;
+}
+
+.container{
+    background-color: white;
+    /* max-width: 600px; */
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+}
+
+.profile-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+.soc-icn{
+    width: 16px;
+    margin: 15px 15px 5px 15px;
+}
+
+.soc-icn:hover{
+    cursor: pointer;
+}
+
+.details-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+
+.name{
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.profession{
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.profile-body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    
+}
